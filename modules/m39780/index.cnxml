@@ -1,0 +1,1905 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Equations and inequalities: Solving linear equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39780</md:content-id>
+  <md:title>Equations and inequalities: Solving linear equations</md:title>
+  <md:abstract/>
+  <md:uuid>bae337e6-63d8-45fe-a577-d92703ffd54a</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Strategy for Solving Equations</title>
+      <para id="id143934">This chapter is all about solving different types of equations for one or two variables. In general, we want to get the unknown variable alone on the left hand side of the equation with all the constants on the right hand side of the equation. For example, in the equation <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/>, we want to be able to write the equation as <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <para id="id144309">As we saw in <link document="m31330" window="new">review of past work</link> (section on rearranging equations), an equation is like a set of weighing scales that must always be balanced. When we solve equations, we need to keep in mind that what is done to one side must be done to the other.</para>
+      <section id="uid1">
+        <title>Method: Rearranging Equations</title>
+        <para id="id144329">You can add, subtract, multiply or divide both sides of an equation by any number you want, as long as you always do it to both sides.</para>
+        <para id="id144333">For example, in the equation <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math><space/>, we want to get <m:math overflow="scroll"><m:mi>x</m:mi></m:math> alone on the left hand side of the equation. This means we need to subtract 5 and add 1 on the left hand side. However, because we need to keep the equation balanced, we also need to subtract 5 and add 1 on the right hand side.</para>
+        <equation id="id144370">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id144503">In another example, <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>, we must divide by 2 and multiply by 3 on the left hand side in order to get <m:math overflow="scroll"><m:mi>x</m:mi></m:math> alone. However, in order to keep the equation balanced, we must also divide by 2 and multiply by 3 on the right hand side.</para>
+        <equation id="id144535">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>÷</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id144692">These are the basic rules to apply when simplifying any equation. In most cases, these rules have to be applied more than once, before we have the unknown variable on the left hand side of the equation.</para>
+        
+<note id="notfhsst_id254" type="tip">The following must also be kept in mind:
+        <list id="id144706" display="block" list-type="enumerated">
+          <item id="uid2">Division by 0 is undefined.
+</item>
+          <item id="uid3">If <m:math overflow="scroll"><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, because division by 0 is
+undefined.
+</item>
+        </list>
+</note>
+<para id="id144697">We are now ready to solve some equations!</para>
+<section id="secfhsst_id263"><title> Investigation : Strategy for Solving Equations </title>
+        <para id="id144787">In the following,
+identify what is wrong.</para>
+        <equation id="id144793">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid3">
+      <title>Solving Linear Equations</title>
+      <para id="id145155">The simplest equation to solve is a linear equation. A linear equation is an
+equation where the power of the variable(letter, e.g. <m:math overflow="scroll"><m:mi>x</m:mi></m:math>) is 1(one). The
+following are examples of linear equations.</para>
+      <equation id="id145168">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id145267">In this section, we will learn how to find the value of the variable that makes
+both sides of the linear equation true. For example, what value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> makes
+both sides of the very simple equation, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> true.</para>
+      <para id="id145297">Since the definition of a linear equation is that if the variable has a highest power of one (1), there is
+at most <emphasis effect="italics">one solution</emphasis> or <emphasis effect="italics">root</emphasis> for the equation.</para>
+      <para id="id145312">This section relies on all the methods we have already discussed: multiplying
+out expressions, grouping terms and factorisation. Make sure that you are
+comfortable with these methods, before trying out the work in the rest of this
+chapter.</para>
+      <equation id="id145317">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi> like </m:mi>
+                    <m:mi> terms </m:mi>
+                    <m:mi> together </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi> simplified </m:mi>
+                    <m:mi> as </m:mi>
+                    <m:mi> much </m:mi>
+                    <m:mi mathvariant="normal">a</m:mi>
+                    <m:mi> possible </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id145430">Now we see that <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>. This means if we divide both sides by 2, we will get:</para>
+      <equation id="id145453">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>-</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id145475">If we substitute <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, back into the original equation, we get:</para>
+      <equation id="id145500"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>L</m:mi>
+                    <m:mi>H</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+<m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+<m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mi>H</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+
+      </equation>
+      <para id="id145603">That is all that there is to solving linear equations.</para>
+<note id="notfhsst_id622" type="tip">Solving Equations</note>
+      <para id="id145615">When you have found the solution to an equation,
+substitute the solution into the original equation, to check your answer.</para>
+      <section id="uid4">
+        <title>Method: Solving Equations</title>
+        <para id="id145627">The general steps to solve equations are:</para>
+        <!--empty paragraphs get left behind.-->
+        <list id="id145635" display="block" list-type="enumerated"><item id="uid5">Expand (Remove) all brackets.
+</item>
+          <item id="uid6">"Move" all terms with the variable to the left hand side of the equation, and
+all constant terms (the numbers) to the right hand side of the equals sign.
+Bearing in mind that the sign of the terms will change from (<m:math><m:mo>+</m:mo></m:math>) to (<m:math><m:mo>-</m:mo></m:math>) or vice
+versa, as they "cross over" the equals sign.
+</item>
+          <item id="uid7">Group all like terms together and simplify as much as possible.
+</item>
+          <item id="uid8">Factorise if necessary.
+</item>
+          <item id="uid9">Find the solution.
+</item>
+          <item id="uid10">Substitute solution into <emphasis effect="bold">original</emphasis> equation to check answer.
+</item>
+        </list>
+<para id="eip-126"><figure id="equations-1" class="khanacademy">
+	  <title>Khan academy video on equations - 1</title>
+	  <media id="yt-media1" display="block" alt="video on equations 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/f15zA0PhSek&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id646"><title> Solving Linear Equations </title>
+        <problem id="probfhsst_id647">
+        <para id="id145728">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id650"> <list id="listfhsst_id650" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id145775">We are given <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and are required to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id145807">Since there are no brackets, we can start with grouping like terms and then
+simplifying.</para>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id145815">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> move </m:mi>
+                      <m:mi> all </m:mi>
+                      <m:mi> constant </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi> numbers </m:mi>
+                      <m:mo>)</m:mo>
+                      <m:mi> to </m:mi>
+                      <m:mi> the </m:mi>
+                      <m:mi> RHS </m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi> right </m:mi>
+                      <m:mi> hand </m:mi>
+                      <m:mi> side </m:mi>
+                      <m:mo>)</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> group </m:mi>
+                      <m:mi> like </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mi> together </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> simplify </m:mi>
+                      <m:mi> grouped </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check the answer </label>
+        <para id="id146022">Substitute solution into original equation:</para>
+        <equation id="id146026">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mo>-</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id146045">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id146060">Since both sides are equal, the answer is correct.</para>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id146070">The solution of <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id822"><title> Solving Linear Equations </title>
+        <problem id="probfhsst_id823">
+        <para id="id146127">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id826"> <list id="listfhsst_id826" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id146196">We are given <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> and are required to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id146249">We start with expanding the brackets, then grouping like terms and then
+simplifying.</para>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id146257">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> expand </m:mi>
+                      <m:mi> the </m:mi>
+                      <m:mi> brackets </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mi> move </m:mi>
+                      <m:mi> all </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mi> with </m:mi>
+                      <m:mi mathvariant="normal">x</m:mi>
+                      <m:mi> to </m:mi>
+                      <m:mi> the </m:mi>
+                      <m:mi> LHS </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> and </m:mi>
+                    <m:mi> all </m:mi>
+                    <m:mi> constant </m:mi>
+                    <m:mi> terms </m:mi>
+                    <m:mi> to </m:mi>
+                    <m:mi> the </m:mi>
+                    <m:mi> RHS </m:mi>
+                    <m:mi> of </m:mi>
+                    <m:mi> the </m:mi>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> group </m:mi>
+                      <m:mi> like </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mi> together </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>40</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> simplify </m:mi>
+                      <m:mi> grouped </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>10</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>40</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> divide </m:mi>
+                      <m:mi> both </m:mi>
+                      <m:mi> sides </m:mi>
+                      <m:mi> by </m:mi>
+                      <m:mn>10</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check the answer </label>
+        <para id="id146645">Substitute solution into original equation:</para>
+        <equation id="id146649">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>24</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id146831">Since both sides are equal to <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>20</m:mn></m:mrow></m:math>, the answer is correct.</para>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id146854">The solution of <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1189"><title> Solving Linear Equations </title>
+        <problem id="probfhsst_id1190">
+        <para id="id146935">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id1193"> <list id="listfhsst_id1193" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id146999">We are given <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and are required to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id147046">Since there is a denominator of (<m:math><m:mi>3</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>1</m:mi></m:math>), we can start by multiplying both sides
+of the equation by (<m:math><m:mi>3</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>1</m:mi></m:math>). But because division by 0 is not permissible, there
+is a restriction on a value for x. (<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>)</para>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id147077"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> remove </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> expand </m:mi>
+                      <m:mi> brackets </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mi> move </m:mi>
+                      <m:mi> all </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mi> containing </m:mi>
+                      <m:mi mathvariant="normal">x</m:mi>
+                      <m:mi> to </m:mi>
+                      <m:mi> the </m:mi>
+                      <m:mi> LHS </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> and </m:mi>
+                    <m:mi> all </m:mi>
+                    <m:mi> constant </m:mi>
+                    <m:mi> terms </m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi> numbers </m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mi> to </m:mi>
+                    <m:mi> the </m:mi>
+                    <m:mi> RHS </m:mi>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> simplify </m:mi>
+                      <m:mi> grouped </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mi>h</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>r</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mi>f</m:mi>
+                    <m:mi>o</m:mi>
+                    <m:mi>r</m:mi>
+                    <m:mi>e</m:mi>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mi> zero </m:mi>
+                      <m:mi> divided </m:mi>
+                      <m:mi> by </m:mi>
+                      <m:mi> any </m:mi>
+                      <m:mi> number </m:mi>
+                      <m:mi> is </m:mi>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check the answer </label>
+        <para id="id147437">Substitute solution into original equation:</para>
+        <equation id="id147441">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mn>2</m:mn>
+                    <m:mn>1</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id147513">Since both sides are equal to 2, the answer is correct.</para>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id147525">The solution of <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1472"><title> Solving Linear Equations </title>
+        <problem id="probfhsst_id1473">
+        <para id="id147599">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id1476"> <list id="listfhsst_id1476" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id147662">We are given <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> and are required to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id147710">We start with multiplying each of the terms in the equation by 3, then
+grouping like terms and then simplifying.</para>
+        </item> <item> <label> Solve the problem </label>
+        <equation id="id147718">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>18</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>21</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> each </m:mi>
+                      <m:mi> term </m:mi>
+                      <m:mi> is </m:mi>
+                      <m:mi> multiplied </m:mi>
+                      <m:mi> by </m:mi>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>21</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>18</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> move </m:mi>
+                      <m:mi> all </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mi> with </m:mi>
+                      <m:mi mathvariant="normal">x</m:mi>
+                      <m:mi> to </m:mi>
+                      <m:mi> the </m:mi>
+                      <m:mi> LHS </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> and </m:mi>
+                    <m:mi> all </m:mi>
+                    <m:mi> constant </m:mi>
+                    <m:mi> terms </m:mi>
+                    <m:mi> to </m:mi>
+                    <m:mi> the </m:mi>
+                    <m:mi> RHS </m:mi>
+                    <m:mi> of </m:mi>
+                    <m:mi> the </m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>17</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>24</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> simplify </m:mi>
+                      <m:mi> grouped </m:mi>
+                      <m:mi> terms </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>24</m:mn>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> divide </m:mi>
+                      <m:mi> both </m:mi>
+                      <m:mi> sides </m:mi>
+                      <m:mi> by </m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>17</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>24</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check the answer </label>
+        <para id="id148040">Substitute solution into original equation:</para>
+        <equation id="id148044">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>8</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>17</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>32</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>168</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>32</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>102</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>168</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>34</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>134</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>134</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id148292">Since both sides are equal to <m:math overflow="scroll"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>134</m:mn></m:mrow><m:mn>17</m:mn></m:mfrac></m:math>, the answer is correct.</para>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id148321">The solution of <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is,   <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>24</m:mn></m:mrow><m:mn>17</m:mn></m:mfrac></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1862"><title> Solving Linear Equations </title>
+        <list id="id148396" display="block" list-type="enumerated"><item id="uid11">Solve for <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcR">Click here for the solution</link>
+</item>
+          <item id="uid12">Solve for <m:math overflow="scroll"><m:mi>w</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcR">Click here for the solution</link>
+</item>
+          <item id="uid13">Solve for <m:math overflow="scroll"><m:mi>z</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcR">Click here for the solution</link>
+</item>
+          <item id="uid14">Solve for <m:math overflow="scroll"><m:mi>t</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>144</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcR">Click here for the solution</link>
+</item>
+          <item id="uid15">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>62</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcR">Click here for the solution</link>
+</item>
+          <item id="uid16">Solve for <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>55</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcn">Click here for the solution</link>
+</item>
+          <item id="uid17">Solve for <m:math overflow="scroll"><m:mi>z</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcn">Click here for the solution</link>
+</item>
+          <item id="uid18">Solve for <m:math overflow="scroll"><m:mi>a</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>23</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcn">Click here for the solution</link>
+</item>
+          <item id="uid19">Solve for <m:math overflow="scroll"><m:mi>b</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>34</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>64</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcn">Click here for the solution</link>
+</item>
+          <item id="uid20">Solve for <m:math overflow="scroll"><m:mi>c</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>c</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcQ">Click here for the solution</link>
+
+</item>
+          <item id="uid21">Solve for <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>18</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcQ">Click here for the solution</link>
+</item>
+          <item id="uid22">Solve for <m:math overflow="scroll"><m:mi>q</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mi>q</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>16</m:mn><m:mn>24</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcQ">Click here for the solution</link>
+</item>
+          <item id="uid23">Solve for <m:math overflow="scroll"><m:mi>q</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>q</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcQ">Click here for the solution</link>
+</item>
+          <item id="uid24">Solve for <m:math overflow="scroll"><m:mi>r</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>16</m:mn><m:mo>-</m:mo><m:mi>r</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>r</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcQ">Click here for the solution</link>
+</item>
+          <item id="uid25">Solve for <m:math overflow="scroll"><m:mi>d</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>d</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+          <item id="uid26">Solve for <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>f</m:mi><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+          <item id="uid27">Solve for <m:math overflow="scroll"><m:mi>v</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>v</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>v</m:mi><m:mo>-</m:mo><m:mn>10</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+          <item id="uid28">Solve for <m:math overflow="scroll"><m:mi>k</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mo>+</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>80</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+          <item id="uid29">Solve for <m:math overflow="scroll"><m:mi>j</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>(</m:mo><m:mi>j</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mi>j</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+          <item id="uid30">Solve for <m:math overflow="scroll"><m:mi>m</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>(</m:mo><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math><space/><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcU">Click here for the solution</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

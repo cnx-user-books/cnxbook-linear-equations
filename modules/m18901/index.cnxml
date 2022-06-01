@@ -1,0 +1,1546 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Linear Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18901</md:content-id>
+  <md:title>Linear Equations</md:title>
+  <md:abstract>This chapter covers principles of linear equations. After completing this chapter students should be able to: graph a linear equation; find the slope of a line; determine an equation of a line; solve linear systems; and complete application problems using linear equations.</md:abstract>
+  <md:uuid>0e3697f7-ad6f-4d5d-9cec-ec56410937e3</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1166277100719">
+      <title>Chapter Overview</title>
+      <para id="id1166277100726">In this chapter, you will learn to:</para>
+      <list id="id1166277100730" list-type="enumerated" number-style="arabic">
+        <item>Graph a linear equation.</item>
+        <item>Find the slope of a line.</item>
+        <item>Determine an equation of a line.</item>
+        <item>Solve linear systems.</item>
+        <item>Do application problems using linear equations.</item>
+      </list>
+    </section>
+    <section id="id1166277100761"><title>Graphing a Linear Equation</title><para id="id1166277100768">Equations whose graphs are straight lines are called <emphasis effect="bold">linear equations</emphasis>. The following are some examples of linear equations: </para>
+      <para id="id1166277100781"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - 3y=6} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4y</m:mn><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x=4y - 7} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2x - 5} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2y</m:mn><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2y=3} {}</m:annotation></m:semantics></m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - 2=0} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1166277101070">A line is completely determined by two points, therefore, to graph a linear equation, we need to find the coordinates of two points. This can be accomplished by choosing an arbitrary value for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> and then solving for the other variable.</para>
+      <example id="eip-id1172553839236">
+      <exercise id="id1166277101170">
+<problem id="oo-id1166277481486">
+          <para id="id1166277101173">Graph the line: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+2} {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+        <solution id="oo-id1166277995029">
+          <para id="id1166277101232">We need to find the coordinates of at least two points. </para>
+          <para id="id1166277101237">We arbitrarily choose 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>. </para>
+          <para id="id1166277101398">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3 \(  - 1 \) +2} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation></m:semantics></m:math>. Therefore, (–1, –1) is a point on this line.</para>
+          <para id="id1166277101586">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3 \( 0 \) +2} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math>. Hence the point (0, 2).</para>
+          <para id="id1166277101762">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=5} {}</m:annotation></m:semantics></m:math>, and we get the point (1, 5). Below, the results are summarized, and the line is graphed.</para>
+        
+      <table id="id1166277321881" summary="A 2x4 table showing coordinate pairs by their x and y values.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry><m:math>
+<m:mi>X</m:mi>
+</m:math></entry>
+              <entry>-1</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry><m:math><m:mi>Y</m:mi>
+</m:math></entry>
+              <entry>-1</entry>
+              <entry>2</entry>
+              <entry>5</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <para id="id1166277321981">
+        <figure id="id1166277321984"><media id="id1166277321984_media" alt="A line passing through the points (-1,1), (0,2) and (1,5) on a Cartesian graph.">
+            <image mime-type="image/png" src="../../media/graphics1.png" id="id1166277321984__onlineimage" height="186" width="209"/>
+          </media>
+        </figure>
+</para>
+</solution>
+      </exercise>
+</example>
+      
+ <example id="eip-id1172555066241">
+      <exercise id="id1166277322023">
+
+        <problem id="oo-id1166277101964">
+          <para id="id1166277322026">Graph the line: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+y=4} {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+        <solution id="oo-id1166277169789">
+          <para id="id1166277322086">Again, we need to find coordinates of at least two points. </para>
+          <para id="id1166277322092">We arbitrarily choose 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math>. </para>
+          <para id="id1166277322253">If
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 \(  - 1 \) +y=4} {}</m:annotation></m:semantics></m:math> which results in 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=6} {}</m:annotation></m:semantics></m:math>. Therefore, (–1, 6) is a point on this line.</para>
+          <para id="id1166277322442">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 \( 0 \) +y=4} {}</m:annotation></m:semantics></m:math>, which results in 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=4} {}</m:annotation></m:semantics></m:math>. Hence the point (0, 4).</para>
+          <para id="id1166277322617">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math>, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+2=4} {}</m:annotation></m:semantics></m:math>, which yields 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>, and gives the point (1, 2). The table below shows the points, and the line is graphed.</para>
+        
+      <table id="id1166277322781" summary="A 2x4 table showing coordinate pairs by their x and y values.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>-1</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>6</entry>
+              <entry>4</entry>
+              <entry>2</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+      <figure id="id1166277322963"><media id="id1166277322963_media" alt="A line passing through the points (-1,6), (0,4) and (1,2) on a Cartesian graph.">
+          <image mime-type="image/png" src="../../media/Picture 25.png" id="id1166277322963__onlineimage" height="300" width="300"/>
+        </media>
+      </figure>
+</solution>
+      </exercise>
+</example>
+      <para id="id1166277322986">The points at which a line crosses the coordinate axes are called the <emphasis effect="bold">intercepts</emphasis>. When graphing a line, intercepts are preferred because they are easy to find. In order to find the x-intercept, we let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math>, and to find the y-intercept, we let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>.</para>
+      <example id="eip-id1172552505763">
+      <exercise id="id1166277323105">
+        <problem id="oo-id1166277188002">
+          <para id="id1166277323108">Find the intercepts of the line: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - 3y=6} {}</m:annotation></m:semantics></m:math>, and graph. </para>
+        </problem>
+        <solution id="oo-id8619054">
+          <para id="id1166277323173">To find the x-intercept, we let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math> in our equation, and solve for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>.</para>
+          <equation id="eip-id1172555451563">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - 3 \( 0 \) =6} {}</m:annotation></m:semantics></m:math></equation>
+          <equation id="eip-id1172554145699">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - 0=6} {}</m:annotation></m:semantics></m:math></equation>
+          <equation id="eip-id1172551768372">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x=6} {}</m:annotation></m:semantics></m:math></equation>
+          <equation id="eip-id1172565760980">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277086384">Therefore, the x-intercept is 3. </para>
+          <para id="id1166277086392">Similarly by letting 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, we obtain the y-intercept which is -2. </para>
+        
+      <note id="id1166277086448" type="Note">If the x-intercept is 3, and the y-intercept is –2, then the corresponding points are (3, 0) and (0, –2), respectively.</note>
+      <para id="id1166277086460">
+        <figure id="id1166277086466"><media id="id1166277086466_media" alt="A line passing through the points (0,-2) and (3,0) on a Cartesian graph.">
+            <image mime-type="image/png" src="../../media/Picture 24.png" id="id1166277086466__onlineimage" height="300" width="300"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id1166277086495">In higher math, equations of lines are sometimes written in parametric form. For example, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2t</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3+2t} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=1+t} {}</m:annotation></m:semantics></m:math>. The letter 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is called the parameter or the dummy variable. Parametric lines can be graphed by finding values for
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> by substituting numerical values for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. </para>
+</solution>
+      </exercise>
+</example>
+      <example id="eip-id1168743353255">
+      <exercise id="id1166277086797">
+        <problem id="oo-id1166277588227">
+          <para id="id1166277086800">Graph the line given by the parametric equations: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2t</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3+2t} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=1+t} {}</m:annotation></m:semantics></m:math></para>
+        </problem>
+        <solution id="oo-id1166278189485">
+          <para id="id1166277086915">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math>, 1 and 2, and then for each value of 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> find the corresponding values for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166277087096">The results are given in the table below.</para>
+       
+      <table id="id1166277087100" summary="A 3x4 table showing coordinate pairs by their t, x, and y values.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>3</entry>
+              <entry>5</entry>
+              <entry>7</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <para id="id1166277087361">
+        <figure id="id1166277087365"><media id="id1166277087365_media" alt="A line passing through the points (3,1), (5,2) and (7,3) on a Cartesian graph.">
+            <image mime-type="image/png" src="../../media/Picture 23.png" id="id1166277087365__onlineimage" height="300" width="300"/>
+          </media>
+        </figure>
+      </para>
+ </solution>
+      </exercise>
+</example>
+      <section id="id1166277087388"><title>Horizontal and Vertical Lines </title><para id="id1166277087395">When an equation of a line has only one variable, the resulting graph is a horizontal or a vertical line. </para>
+        <para id="id1166277087401">The graph of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math>, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is a constant, is a vertical line that passes through the point (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, 0). Every point on this line has the x-coordinate 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, regardless of the y-coordinate.</para>
+        <para id="id1166277087585">The graph of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=b} {}</m:annotation></m:semantics></m:math>, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> is a constant, is a horizontal line that passes through the point (0, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>). Every point on this line has the y-coordinate 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>, regardless of the x-coordinate.</para>
+        <example id="eip-id1171726416400">
+        <exercise id="id1166277087773">
+          <problem id="oo-id1166277300428">
+            <para id="id1166277087776">Graph the lines: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 2} {}</m:annotation></m:semantics></m:math> , and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3} {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+          <solution id="oo-id1166277239630">
+            <para id="id1166277087887">The graph of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 2} {}</m:annotation></m:semantics></m:math> is a vertical line that has the x-coordinate –2 no matter what the y-coordinate is. Therefore, the graph is a vertical line passing through (–2, 0).</para>
+            <para id="id1166277087951">The graph of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3} {}</m:annotation></m:semantics></m:math>, is a horizontal line that has the y-coordinate 3 regardless of what the x-coordinate is. Therefore, the graph is a horizontal line that passes through (0, 3).</para>
+         
+        <para id="id1166277088009">
+          <figure id="id1166277088016"><media id="id1166277088016_media" alt=" The Cartesian graph on the left depicts the line x = -2. The Cartesian graph on the right depicts the line y = 3.">
+              <image mime-type="image/png" src="../../media/Picture 22.png" id="id1166277088016__onlineimage" height="400" width="500"/>
+            </media>
+          </figure>
+        </para>
+        <note id="id1166277088042" type="Note">Most students feel that the coordinates of points must always be integers. This is not true, and in real life situations, not always possible. Do not be intimidated if your points include numbers that are fractions or decimals.</note>
+ </solution>
+        </exercise>
+</example>
+      </section>
+    </section>
+    <section id="id1166277088056"><title>Slope of a Line</title><section id="id1166277088063"><title>Section Overview</title><para id="id1166277088070">In this section, you will learn to:</para>
+        <list id="id1166277088074" list-type="enumerated" number-style="arabic">
+          <item>Find the slope of a line if two points are given.</item>
+          <item>Graph the line if a point and the slope are given.</item>
+          <item>Find the slope of the line that is written in the form 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+b} {}</m:annotation></m:semantics></m:math>.</item>
+          <item>Find the slope of the line that is written in the form 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"=c} {}</m:annotation></m:semantics></m:math>.</item>
+        </list>
+ </section>
+        <para id="id1166277079697">In the last section, we learned to graph a line by choosing two points on the line. A graph of a line can also be determined if one point and the "steepness" of the line is known. The precise number that refers to the steepness or inclination of a line is called the <emphasis effect="bold">slope</emphasis> of the line. </para>
+        <para id="id1166277079712">From previous math courses, many of you remember slope as the "rise over run," or "the vertical change over the horizontal change" and have often seen it expressed as:</para>
+        <equation id="eip-id1171674676746"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"rise"}  over  {"run"} } } {}</m:annotation></m:semantics><m:mo>,
+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>vertical change</m:mtext><m:mtext>horizontal change</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"vertical change"}  over  {"horizontal change"} } } {}</m:annotation></m:semantics><m:mo>, 
+</m:mo><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi fontstyle="italic">Δy</m:mi><m:mi fontstyle="italic">Δx</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Δy}  over  {Δx} } } {}</m:annotation></m:semantics><m:mtext>etc.</m:mtext></m:math></equation>
+        <para id="id1166277079865">We give a precise definition. </para>
+<definition id="eip-id1169297156605"><term/>
+       <meaning id="eip-id1169300632805"> <para id="id1166277079870">If (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>) and (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>,
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>) are two different points on a line, then the slope of the line is</para>
+        <para id="id1166277080080">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>Slope</m:mtext>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"Slope"=m= {  {y rSub { size 8{2} }  - y rSub { size 8{1} } }  over  {x rSub { size 8{2} }  - x rSub { size 8{1} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para></meaning>
+</definition>
+        <example id="eip-id1169313200493">
+        <exercise id="id1166277080198">
+          <problem id="oo-id1166277180066">
+            <para id="id1166277080202">Find the slope of the line that passes through the points (-2, 3) and (4, -1), and graph the line.</para>
+          </problem>
+          <solution id="oo-id1166277296992">
+            <para id="id1166277080204">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2,3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} } ,y rSub { size 8{1} }  \) = \(  - 2,3 \) } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>4,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{2} } ,y rSub { size 8{2} }  \) = \( 4, - 1 \) } {}</m:annotation></m:semantics></m:math> then the slope</para>
+            <equation id="eip-id1169313774451">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  { - 1 - 3}  over  {4 -  \(  - 2 \) } } = -  {  {4}  over  {6} } = -  {  {2}  over  {3} } } {}</m:annotation></m:semantics></m:math></equation>
+          
+        <para id="id1166277080524">
+          <figure id="id1166277080531"><media id="id1166277080531_media" alt="A line passing through the points (-2,3) and (4, -1) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 21.png" id="id1166277080531__onlineimage" height="200" width="300"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id1166277080560">To give the reader a better understanding, both the vertical change, –4, and the horizontal change, 6, are shown in the above figure.</para>
+        <para id="id1166277080567">When two points are given, it does not matter which point is denoted as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} } ,y rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math> and which 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{2} } ,y rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>. The value for the slope will be the same. For example, if we choose 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>4,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} } ,y rSub { size 8{2} }  \) = \( 4, - 1 \) } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2,3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{2} } ,y rSub { size 8{2} }  \) = \(  - 2,3 \) } {}</m:annotation></m:semantics></m:math>, we will get the same value for the slope as we obtained earlier. The steps involved are as follows.</para>
+        <equation id="id1166277080907">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mn>2</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{m= {  {3 -  \(  - 1 \) }  over  { - 2 - 4} } = {  {4}  over  { - 6} } = -  {  {2}  over  {3} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166277081035">The student should further observe that if a line rises when going from left to right, then it has a positive slope; and if it falls going from left to right, it has a negative slope. </para>
+</solution>
+        </exercise>
+</example>
+        <example id="eip-id2067357">
+        <exercise id="id1166277081046">
+          <problem id="oo-id1166277326655">
+            <para id="id1166277081050">Find the slope of the line that passes through the points (2, 3) and (2, -1), and graph.</para>
+          </problem>
+          <solution id="oo-id1166277326599">
+            <para id="id1166277081052">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2,3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} } ,y rSub { size 8{1} }  \) = \( 2,3 \) } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{2} } ,y rSub { size 8{2} }  \) = \( 2, - 1 \) } {}</m:annotation></m:semantics></m:math> then the slope</para>
+            <equation id="eip-id1169311874003">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>0</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>undefined</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  { - 1 - 3}  over  {2 - 2} } = -  {  {4}  over  {0} } ="undefined"} {}</m:annotation></m:semantics></m:math></equation>
+          
+        <para id="id1166277081346">
+          <figure id="id1166277081350"><media id="id1166277081350_media" alt="A line passing through the points (2,9) and (2, -1) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 20.png" id="id1166277081350__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+        </para>
+        <note id="id1166277081373" type="Note">The slope of a vertical line is undefined.</note>
+</solution>
+        </exercise>
+</example>
+        <example id="eip-id1167107113965">
+        <exercise id="id1166277081385">
+          <problem id="oo-id1166278189541">
+            <para id="id1166277081388">Graph the line that passes through the point (1, 2) and has slope 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  {  {3}  over  {4} } } {}</m:annotation></m:semantics></m:math> .</para>
+          </problem>
+          <solution id="oo-id1166277162587">
+            <para id="id1166277081440">Slope equals 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>rise</m:mtext><m:mtext>run</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"rise"}  over  {"run"} } } {}</m:annotation></m:semantics></m:math>. The fact that the slope is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { - 3}  over  {4} } } {}</m:annotation></m:semantics></m:math> , means that for every rise of –3 units (fall of 3 units) there is a run of 4. So if from the given point (1, 2) we go down 3 units and go right 4 units, we reach the point (5, –1). The following graph is obtained by connecting these two points.</para>
+         
+        <para id="id1166277081558">
+          <figure id="id1166277081566"><media id="id1166277081566_media" alt="A line passing through the points (1,2) and (5,-1) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 19.png" id="id1166277081566__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id1166277081594">Alternatively, since 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  { - 4} } } {}</m:annotation></m:semantics></m:math> represents the same number, the line can be drawn by starting at the point (1,2) and choosing a rise of 3 units followed by a run of –4 units. So from the point (1, 2), we go up 3 units, and to the left 4, thus reaching the point (–3, 5) which is also on the same line. See figure below.</para>
+        <para id="id1166277081668">
+          <figure id="id1166277081675"><media id="id1166277081675_media" alt="A line passing through the points (-3,5), (1,2) and (5,-1) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 18.png" id="id1166277081675__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+        </para>
+ </solution>
+        </exercise>
+</example>
+        <example id="eip-id1167109647297">
+        <exercise id="id1166277081707">
+          <problem id="oo-id1166277561017">
+            <para id="id1166277081710">Find the slope of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3y=6} {}</m:annotation></m:semantics></m:math>. </para>
+          </problem>
+          <solution id="oo-id1166277179412">
+            <para id="id1166277081770">In order to find the slope of this line, we will choose any two points on this line.</para>
+            <para id="id1166277081774">Again, the selection of x and y intercepts seems to be a good choice. The x-intercept is (3, 0), and the y-intercept is (0, 2). Therefore, the slope is</para>
+            <equation id="eip-id1167114058034">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {2 - 0}  over  {0 - 3} } = -  {  {2}  over  {3} } } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation>
+            <para id="id1166277081872">The graph below shows the line and the intercepts:
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. </para>
+          
+        <para id="id1166277081960">
+          <figure id="id1166277081967"><media id="id1166277081967_media" alt="A line passing through the points (0,2) and (3,0) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 17.png" id="id1166277081967__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+        </para>
+</solution>
+        </exercise>
+</example>
+        <example id="eip-id1170921137780">
+        <exercise id="id1166277081998"><problem id="oo-id1166277639422">
+            <para id="id1166277082001">Find the slope of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+2} {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+          <solution id="oo-id1166277180110">
+            <para id="id1166277082059">We again find two points on the line. Say (0, 2) and (1, 5).</para>
+            <para id="id1166277317621">Therefore, the slope is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {5 - 2}  over  {1 - 0} } = {  {3}  over  {1} } =3} {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="id1166277317714">Look at the slopes and the y-intercepts of the following lines.</para>
+  
+        <table id="id1166277317718" summary="A 4x3 table showing the equation of the line with the respective slope and y- intercept.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>The line</entry>
+                <entry>Slope</entry>
+                <entry>y-intercept</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mn>3x</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{y=3x+2} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>3</entry>
+                <entry>2</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{y= - 2x+5} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>-2</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mo stretchy="false">/</m:mo>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{y=3/2x - 4} {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry>3/2</entry>
+                <entry>-4</entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+            <para id="id1166277318044">It is no coincidence that when an equation of the line is solved for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>, the coefficient of the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> term represents the slope, and the constant term represents the y-intercept.</para>
+            <para id="id1166277318133">In other words, for the line
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+b} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the slope, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> is the y-intercept.</para>
+        
+</solution>
+        </exercise>
+</example>
+        <example id="eip-id1170921453666">
+        <exercise id="id1166277318290">
+          <problem id="oo-id1166277639502">
+            <para id="id1166277318293">Determine the slope and y-intercept of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3y=6} {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+          <solution id="oo-id1166277551782">
+            <para id="id1166277318352">We solve for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+            <equation id="eip-id1170930140794">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3y=6} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id2655806">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3y</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3y= - 2x+6} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1170925399538">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 2/3x+2} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277318600">The <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mtext>slope </m:mtext><m:mo stretchy="false">=</m:mo><m:mtext> the coefficient of the   </m:mtext></m:mrow><m:mi>x</m:mi><m:mrow><m:mtext>   term</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"slope "=" the coefficient of the "x" term"= - 2/3} {}</m:annotation></m:semantics></m:math></para>
+            <para id="id1166277318681">The 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mtext>y-intercept</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>the constant term</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"y-intercept"="the constant term"=2} {}</m:annotation></m:semantics></m:math>. </para>
+          </solution>
+        </exercise>
+     </example>
+    </section>
+    <section id="id1166277318749"><title>Determining the Equation of a Line</title><section id="id1166277318756">
+        <title>Section Overview</title>
+        <para id="id1166277318763">In this section, you will learn to:</para>
+        <list id="id1166277318767" list-type="enumerated" number-style="arabic">
+          <item>Find an equation of a line if a point and the slope are given.</item>
+          <item>Find an equation of a line if two points are given.</item>
+        </list>
+ </section>
+        <para id="id1166277318781">So far, we were given an equation of a line and were asked to give information about it. For example, we were asked to find points on it, find its slope and even find intercepts. Now we are going to reverse the process. That is, we will be given either two points, or a point and the slope of a line, and we will be asked to find its equation. </para>
+        <para id="id1166277318794">An equation of a line can be written in two forms, the <emphasis effect="bold">slope-intercept form</emphasis> or the <emphasis effect="bold">standard form</emphasis>.</para>
+        <para id="id1166277318810">
+          <emphasis effect="bold">The Slope-Intercept Form of a Line: </emphasis>
+          <emphasis effect="bold">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>mx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+b} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </emphasis>
+        </para>
+        <para id="id1166277318882">A line is completely determined by two points, or a point and slope. So it makes sense to ask to find the equation of a line if one of these two situations is given.</para>
+        <example id="eip-id4582122">
+        <exercise id="id1166277318899">
+          <problem id="oo-id1166277128486">
+            <para id="id1166277318902">Find an equation of a line whose slope is 5, and y-intercept is 3.</para>
+          </problem>
+          <solution id="oo-id1166277128491">
+            <para id="id1166277318903">In the last section we learned that the equation of a line whose slope = m and y-intercept = b is
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+b} {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="id1166277318970">Since
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=5} {}</m:annotation></m:semantics></m:math>, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b=3} {}</m:annotation></m:semantics></m:math>, the equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=5x+3} {}</m:annotation></m:semantics></m:math>.</para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id4582269">
+        <exercise id="id1166277319138">
+          <problem id="oo-id1166277128628">
+            <para id="id1166277319142">Find the equation of the line that passes through the point (2, 7) and has slope 3. </para>
+          </problem>
+          <solution id="oo-id1166277128633">
+            <para id="id1166277319144">Since 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=3} {}</m:annotation></m:semantics></m:math>, the partial equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+b} {}</m:annotation></m:semantics></m:math>. </para>
+            <para id="id1166277319257">Now 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> can be determined by substituting the point (2, 7) in the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+b} {}</m:annotation></m:semantics></m:math>.</para>
+            <equation id="eip-id4582400">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7=3 \( 2 \) +b} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id4582444">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b=1} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277319487">Therefore, the equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+1} {}</m:annotation></m:semantics></m:math>.</para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id4582509">
+        <exercise id="id1166277319555">
+          <problem id="oo-id1166277128868">
+            <para id="id1166277319558">Find an equation of the line that passes through the points (–1, 2), and (1, 8).</para>
+          </problem>
+          <solution id="oo-id1166277128875">
+            <equation id="eip-id4582531">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>6</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {8 - 2}  over  {1 -  \(  - 1 \) } } = {  {6}  over  {2} } =3} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277319666">So the partial equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+b} {}</m:annotation></m:semantics></m:math></para>
+            <para id="id1166277319727">Now we can use either of the two points (–1, 2) or (1, 8), to determine 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="id1166277319774">Substituting (–1, 2) gives</para>
+            <equation id="eip-id4582669">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2=3 \(  - 1 \) +b} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id4582718">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5=b} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277319913">So the equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+5} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id4582783">
+        <exercise id="id1166277319981">
+          <problem id="oo-id1166277129146">
+            <para id="id1166277319984">Find an equation of the line that has x-intercept 3, and y-intercept 4. </para>
+          </problem>
+          <solution id="oo-id1166277100551">
+            <para id="id1166277319986">x-intercept = 3, and y-intercept = 4 correspond to the points (3, 0), and (0, 4), respectively.</para>
+            <equation id="eip-id4582810">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {4 - 0}  over  {0 - 3} } = {  {4}  over  { - 3} } } {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277320080">So the partial equation for the line is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 4/3x+b} {}</m:annotation></m:semantics></m:math></para>
+            <para id="id1166277061557">Substituting (0, 4) gives </para>
+            <equation id="eip-id4582923">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4= - 4/3 \( 0 \) +b} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id4582980">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4=b} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277061704">Therefore, the equation is
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 4/3x+4} {}</m:annotation></m:semantics></m:math>. </para>
+          </solution>
+        </exercise>
+</example>
+        <para id="id1166277061782">
+          <emphasis effect="bold">The Standard form of a Line: </emphasis>
+          <emphasis effect="bold">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>Ax</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>By</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"=C} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </emphasis>
+        </para>
+        <para id="id1166277061858">Another useful form of the equation of a line is the Standard form.</para>
+        <para id="id1166277061863">Let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> be a line with slope 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, and containing a point 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{1} } ,y rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>. If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,y \) } {}</m:annotation></m:semantics></m:math> is any other point on the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, then by the definition of a slope, we get</para>
+        <equation id="id1166277062125">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{m= {  {y - y rSub { size 8{1} } }  over  {x - x rSub { size 8{1} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="id1166277062211">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{y - y rSub { size 8{1} } =m \( x - x rSub { size 8{1} }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166277062305">The last result is referred to as the <emphasis effect="bold">point-slope form</emphasis> or point-slope formula. If we simplify this formula, we get the equation of the line in the standard form, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"=C} {}</m:annotation></m:semantics></m:math>.</para>
+        <example id="eip-id1167117731234">
+        <exercise id="id1166277062389">
+          <problem id="oo-id1166277101190">
+            <para id="id1166277062392">Using the point-slope formula, find the standard form of an equation of the line that passes through the point (2, 3) and has slope –3/5. </para>
+          </problem>
+          <solution id="oo-id1166277101198">
+            <para id="id1166277062397">Substituting the point (2, 3) and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= - 3/5} {}</m:annotation></m:semantics></m:math> in the point-slope formula, we get</para>
+            <equation id="eip-id1167104853061"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - 3= - 3/5 \( x - 2 \) } {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277128466">Multiplying both sides by 5 gives us</para>
+            <equation id="eip-id1167125587023">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 \( y - 3 \) = - 3/5 \( x - 2 \) } {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id4770834">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>5y</m:mn><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5y - "15"= - 3x+6} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id6383194">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>21</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x+5y="21"} {}</m:annotation></m:semantics></m:math></equation>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id2157665">
+        <exercise id="id1166277064232">
+          <problem id="oo-id1166277101487">
+            <para id="id1166277064235">Find the standard form of the line that passes through the points (1, -2), and (4, 0). </para>
+          </problem>
+          <solution id="oo-id1166277101492">
+            <equation id="eip-id1167108252186">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {0 -  \(  - 2 \) }  over  {4 - 1} } = {  {2}  over  {3} } } {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277064335">The point-slope form is</para>
+            <equation id="eip-id1167115404414">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y -  \(  - 2 \) =2/3 \( x - 1 \) } {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277064443">Multiplying both sides by 3 gives us</para>
+            <equation id="eip-id1167121335930">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 \( y+2 \) =2 \( x - 1 \) } {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1167116006325">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3y</m:mn><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3y+6=2x - 2} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1167121131284">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2x+3y= - 8} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1167117970432">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x - 3y=8} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277064740">We should always be able to convert from one form of an equation to another. That is, if we are given a line in the slope-intercept form, we should be able to express it in the standard form, and vice versa.</para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id1167104526424">
+        <exercise id="id1166277064753">
+          <problem id="oo-id1166277321872">
+            <para id="id1166277064756">Write the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 2/3x+3} {}</m:annotation></m:semantics></m:math> in the standard form. </para>
+          </problem>
+          <solution id="oo-id1166277321923">
+            <para id="id1166277064829">Multiplying both sides of the equation by 3, we get</para>
+            <equation id="eip-id1167121662108">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>3y</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3y= - 2x+9} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1167114982500">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3y=9} {}</m:annotation></m:semantics></m:math></equation>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id1167104538766">
+        <exercise id="id1166277064968">
+          <problem id="oo-id1166277322014">
+            <para id="id1166277064971">Write the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x - 4y="10"} {}</m:annotation></m:semantics></m:math> in the slope-intercept form.</para>
+          </problem>
+          <solution id="oo-id1166277322052">
+            <para id="id1166277065030">Solving for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>, we get</para>
+            <equation id="eip-id1167104883697">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4y= - 3x+"10"} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1167122788250">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">/</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3/4x - 5/2} {}</m:annotation></m:semantics></m:math></equation>
+          </solution>
+        </exercise>
+</example>
+        <para id="id1166277065226">Finally, we learn a very quick and easy way to write an equation of a line in the standard form. But first we must learn to find the slope of a line in the standard form by inspection.</para>
+        <para id="id1166277065234">By solving for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>, it can easily be shown that the slope of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ax</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>By</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ax"+ ital "By"=C} {}</m:annotation></m:semantics></m:math> is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>A</m:mi></m:mrow><m:mo stretchy="false">/</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - A/B} {}</m:annotation></m:semantics></m:math>. The reader should verify.</para>
+        <example id="eip-id1167124012729">
+        <exercise id="id1166277065412">
+          <problem id="oo-id1166277322280">
+            <para id="id1166277065415">Find the slope of the following lines, by inspection.</para>
+          
+        
+<list id="eip-id1167104131871" list-type="enumerated" number-style="lower-alpha"><item>
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x - 5y="10"} {}</m:annotation></m:semantics></m:math></item>
+        <item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>7y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>20</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+7y="20"} {}</m:annotation></m:semantics></m:math></item>
+        <item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x - 3y=8} {}</m:annotation></m:semantics></m:math></item>
+</list>
+</problem>
+<solution id="eip-id5602224">
+<list id="eip-id1167104521214" list-type="enumerated" number-style="lower-alpha"><item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=3} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B= - 5} {}</m:annotation></m:semantics></m:math>, therefore, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= -  {  {3}  over  { - 5} } = {  {3}  over  {5} } } {}</m:annotation></m:semantics></m:math></item>
+        <item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=2} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=7} {}</m:annotation></m:semantics></m:math>, therefore, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= -  {  {2}  over  {7} } } {}</m:annotation></m:semantics></m:math></item>
+        <item> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= -  {  {4}  over  { - 3} } = {  {4}  over  {3} } } {}</m:annotation></m:semantics></m:math></item>
+</list>
+</solution>
+</exercise>
+</example>
+        <para id="id1166277066030">Now that we know how to find the slope of a line in the standard form by inspection, our job in finding the equation of a line is going to be very easy.</para>
+        <example id="eip-id1169322332357">
+        <exercise id="id1166277066042">
+          <problem id="oo-id1166277322656">
+            <para id="id1166277066045">Find an equation of the line that passes through (2, 3) and has slope 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4/5} {}</m:annotation></m:semantics></m:math>. </para>
+          </problem>
+          <solution id="oo-id1166277322691">
+            <para id="id1166277066102">Since the slope of the line is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4/5} {}</m:annotation></m:semantics></m:math>, we know that the left side of the equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5y</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x+5y} {}</m:annotation></m:semantics></m:math>, and the partial equation is going to be</para>
+            <equation id="eip-id1169312904551">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x+5y=c} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277066277">Of course, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> can easily be found by substituting for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+            <equation id="eip-id1169311954630">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 \( 2 \) +5 \( 3 \) =c} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1169321737807">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>23</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"23"=c} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277066547">The desired equation is </para>
+            <equation id="eip-id1169316531645">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x+5y="23"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation>
+          </solution>
+        </exercise>
+</example>
+        
+        <para id="id1166277066620">If you use this method often enough, you can do these problems very quickly.</para>
+     
+    </section>
+    <section id="id1166277066631"><title>Applications </title><para id="id1166277066638">Now that we have learned to determine equations of lines, we get to apply these ideas in real-life equations.</para>
+      <example id="eip-id1167105788182">
+      <exercise id="id1166277066648">
+        <problem id="oo-id1166277322998">
+          <para id="id1166277066651">A taxi service charges $0.50 per mile plus a $5 flat fee. What will be the cost of traveling 20 miles? What will be cost of traveling 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> miles?</para>
+        </problem>
+        <solution id="oo-id1166277323021">
+          <equation id="eip-id1167118985988"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>The cost of traveling 20 miles</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>20</m:mtext><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"The cost of travelling 20 miles"=y= \(  "." "50" \)  \( "20" \) +5="10"+5="15"} {}</m:annotation></m:semantics></m:math></equation>
+          <equation id="eip-id1167104584995"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>The cost of traveling   </m:mtext><m:mi>x</m:mi><m:mrow><m:mrow><m:mtext>   miles</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>.</m:mtext></m:mrow><m:mtext>50</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"The cost of travelling "x" mile"=y= \(  "." "50" \)  \( x \) +5= "." "50"x+5} {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277066930">In this problem, $0.50 per mile is referred to as the <emphasis effect="bold">variable cost</emphasis>, and the flat charge $5 as the <emphasis effect="bold">fixed cost</emphasis>. Now if we look at our cost equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>.</m:mtext></m:mrow><m:mtext>50</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= "." "50"x+5} {}</m:annotation></m:semantics></m:math>, we can see that the variable cost corresponds to the slope and the fixed cost to the y-intercept.</para>
+        </solution>
+      </exercise>
+</example>
+      <example id="eip-id1167108378116">
+      <exercise id="id1166277067015">
+        <problem id="oo-id1166277323265">
+          <para id="id1166277067018">The variable cost to manufacture a product is $10 and the fixed cost $2500. If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> represents the number of items manufactured and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> the total cost, write the cost function.</para>
+        </problem>
+        <solution id="oo-id1166277323304">
+          <para id="id1166277067106">The fact that the variable cost represents the slope and the fixed cost represents the y-intercept, makes 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m="10"} {}</m:annotation></m:semantics></m:math> and
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>2500</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="2500"} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166277067211">Therefore, the cost equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>2500</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="10"x+"2500"} {}</m:annotation></m:semantics></m:math>.</para>
+        </solution>
+      </exercise>
+</example>
+      <example id="eip-id1167105974909">
+      <exercise id="id1166277067281">
+        <problem id="oo-id1166277323407">
+          <para id="id1166277067284">It costs $750 to manufacture 25 items, and $1000 to manufacture 50 items. Assuming a linear relationship holds, find the cost equation, and use this function to predict the cost of 100 items.</para>
+        </problem>
+        <solution id="oo-id1166277323414">
+          <para id="id1166277067289">We let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>the number of items manufactured</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="the number of items manufactured"} {}</m:annotation></m:semantics></m:math>, and let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>the cost</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="the cost"} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166277067394">Solving this problem is equivalent to finding an equation of a line that passes through the points (25, 750) and (50, 1000). </para>
+          <para id="id1166277067401"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>1000</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>750</m:mtext></m:mrow><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {"1000" - "750"}  over  {"50" - "25"} } ="10"} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277067482">Therefore, the partial equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="10"x+b} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277067546">By substituting one of the points in the equation, we get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>500</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b="500"} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277067599">Therefore, the cost equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>500</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="10"x+"500"} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277067663">Now to find the cost of 100 items, we substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>100</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="100"} {}</m:annotation></m:semantics></m:math> in the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>500</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="10"x+"500"} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277067779">So the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cost</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>100</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mtext>500</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>1500</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cost"=y="10" \( "100" \) +"500"="1500"} {}</m:annotation></m:semantics></m:math></para>
+        </solution>
+      </exercise>
+</example>
+      <example id="eip-id1167105273546">
+      <exercise id="id1166277067873"><problem id="oo-id1166277086642">
+          <para id="id1166277067876">The freezing temperature of water in Celsius is 0 degrees and in Fahrenheit 32 degrees. And the boiling temperatures of water in Celsius, and Fahrenheit are 100 degrees, and 212 degrees, respectively. Write a conversion equation from Celsius to Fahrenheit and use this equation to convert 30 degrees Celsius into Fahrenheit.</para>
+        </problem>
+        <solution id="oo-id1166277086650">
+          <para id="id1166277067891">Let us look at what is given.</para>
+
+      <table id="id1166277067895" summary="A 3x2 table depicting degrees Centigrade and Fahrenheit.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Centigrade</entry>
+              <entry>Fahrenheit</entry>
+            </row>
+            <row>
+              <entry>0</entry>
+              <entry>32</entry>
+            </row>
+            <row>
+              <entry>100</entry>
+              <entry>212</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup>
+</table>        
+  <para id="id1166277067976">Again, solving this problem is equivalent to finding an equation of a line that passes through the points (0, 32) and (100, 212). </para>
+          <para id="id1166277067983">Since we are finding a linear relationship, we are looking for an equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+b} {}</m:annotation></m:semantics></m:math>, or in this case 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mC</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "mC"+b} {}</m:annotation></m:semantics></m:math>, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> represent the temperature in Celsius, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> or 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>F</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> the temperature in Fahrenheit. </para>
+          <equation id="eip-id1167117761627"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>slope  </m:mtext><m:mrow><m:mrow><m:mi> m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>212</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>32</m:mtext></m:mrow><m:mrow><m:mtext>100</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"slope "m= {  {"212" - "32"}  over  {"100" - 0} } = {  {9}  over  {5} } } {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277068371">The equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= {  {9}  over  {5} } C+b} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277068438">Substituting the point (0, 32), we get</para>
+          <equation id="eip-id1167104423768">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>32</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= {  {9}  over  {5} } C+"32"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation>
+          <para id="id1166277068512">Now to convert 30 degrees Celsius into Fahrenheit, we substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C="30"} {}</m:annotation></m:semantics></m:math> in the equation </para>
+          <equation id="eip-id1167111400381"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>32</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= {  {9}  over  {5} } C+"32"} {}</m:annotation></m:semantics><m:mo/></m:math></equation>
+          <equation id="eip-id1167105138785"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>9</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>30</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mtext>32</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>86</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= {  {9}  over  {5} }  \( "30" \) +"32"="86"} {}</m:annotation></m:semantics></m:math></equation>
+        
+</solution>
+      </exercise>
+</example>
+      <example id="eip-id1167105900131">
+      <exercise id="id1166277068727">
+        <problem id="oo-id1166277087127">
+          <para id="id1166277068730">The population of Canada in the year 1970 was 18 million, and in 1986 it was 26 million. Assuming the population growth is linear, and x represents the year and y the population, write the function that gives a relationship between the time and the population. Use this equation to predict the population of Canada in 2010.</para>
+        </problem>
+        <solution id="oo-id1166277087135">
+          <para id="id1166277068738">The problem can be made easier by using 1970 as the base year, that is, we choose the year 1970 as the year zero. This will mean that the year 1986 will correspond to year 16, and the year 2010 as the year 40.</para>
+          <para id="id1166277068746">  Now we look at the information we have.</para>
+          <para id="id1166277068834">Solving this problem is equivalent to finding an equation of a line that passes through the points (0, 18) and (16, 26). </para>
+          <equation id="eip-id4723459">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>26</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>18</m:mtext></m:mrow><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {"26" - "18"}  over  {"16" - 0} } = {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277068927">The equation is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {2} } x+b} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id1166277068994">Substituting the point (0, 18), we get</para>
+          <equation id="eip-id1167105840151">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>18</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {2} } x+"18"} {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277069066">Now to find the population in the year 2010, we let 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>40</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="40"} {}</m:annotation></m:semantics></m:math> in the equation </para>
+          <equation id="eip-id1167105234628">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>18</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {2} } x+"18"} {}</m:annotation></m:semantics></m:math></equation>
+          <equation id="eip-id1167106613755">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>40</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mtext>18</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>38</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {2} }  \( "40" \) +"18"="38"} {}</m:annotation></m:semantics></m:math></equation>
+          <para id="id1166277069273">So the population of Canada in the year 2010 will be 38 million. </para>
+        
+      <table id="id1166277068752" summary="A 3x2 table depicting a year and the corresponding population for that year.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Year</entry>
+              <entry>Population</entry>
+            </row>
+            <row>
+              <entry>0 (1970)</entry>
+              <entry>18 million</entry>
+            </row>
+            <row>
+              <entry>16 (1986)</entry>
+              <entry>26 million</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+    </solution>
+      </exercise>
+</example></section>
+    <section id="id1166277069282"><title>More Applications</title><section id="id1166277069289">
+        <title>Section Overview</title>
+        <para id="id1166277069296">In this section, you will learn to:</para>
+        <list id="id1166277069300" list-type="enumerated" number-style="arabic">
+          <item>Solve a linear system in two variables.</item>
+          <item>Find the equilibrium point when a demand and a supply equation are given.</item>
+          <item>Find the break-even point when the revenue and the cost functions are given.</item>
+        </list>
+</section>
+        <para id="id1166277069319">In this section, we will do application problems that involve the intersection of lines. Therefore, before we proceed any further, we will first learn how to find the intersection of two lines.</para>
+        <example id="eip-id1170556540298">
+        <exercise id="id1166277069334"><problem id="oo-id1166277087514">
+            <para id="id1166277069337">Find the intersection of the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x - 1} {}</m:annotation></m:semantics></m:math> and the line 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x+7} {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+          <solution id="oo-id1166277087589">
+            <para id="id1166277069464">We graph both lines on the same axes, as shown below, and read the solution (2, 5).</para>
+          
+        <para id="id1166277069468">
+          <figure id="id1166277069472"><media id="id1166277069472_media" alt=" The intersection of the lines y=3x-1 and y=-x+7 at (2,5) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 16.png" id="id1166277069472__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+</para>
+        
+        <para id="eip-68">Finding an intersection of two lines graphically is not always easy or practical; therefore, we will now learn to solve these problems algebraically.</para><para id="eip-863">At the point where two lines intersect, the x and y values for both lines are the same. So in order to find the intersection, we either let the x-values or the y-values equal.</para><para id="eip-481">If we were to solve the above example algebraically, it will be easier to let the y-values equal. Since 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x - 1} {}</m:annotation></m:semantics></m:math> for the first line, and <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - x+7} {}</m:annotation></m:semantics></m:math> for the second line, by letting the y-values equal, we get</para>
+<equation id="eip-id1167601212924"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>1</m:mn>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>7</m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>8</m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd columnalign="left">
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></equation>
+<para id="eip-54">By substituting <m:math>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>2</m:mn>
+</m:math> in any of the two equations, we obtain 
+<m:math>
+<m:mi>y</m:mi>
+<m:mo>=</m:mo>
+<m:mn>5</m:mn>
+</m:math>.</para><para id="eip-318">Hence, the solution (2, 5).</para><para id="eip-361">One common algebraic method used in solving systems of equations is called the <emphasis effect="bold">elimination method</emphasis>. The object of this method is to eliminate one of the two variables by adding the left and right sides of the equations together. Once one variable is eliminated, we get an equation that has only one variable for which it can be solved. Finally, by substituting the value of the variable that has been found in one of the original equations, we get the value of the other variable. The method is demonstrated in the example below.</para></solution></exercise></example><example id="eip-id1170547058377">
+        <exercise id="id1166277069981">
+          <problem id="oo-id1166277087626">
+            <para id="id1166277069984">Find the intersection of the lines 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+y=7} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x - y=3} {}</m:annotation></m:semantics></m:math> by the elimination method.</para>
+          </problem>
+          <solution id="oo-id1166277087696">
+            <para id="id1166277070101">We add the left and right sides of the two equations.</para>
+            <equation id="eip-id1170555545814">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:munder accentunder="true"><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mo>̲</m:mo></m:munder><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+2x+y=7 {} ##
+ {underline  {3x - y=3}}  {} ##
+5x="10"
+} } {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1170546820926">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277070267">  Now we substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math> in any of the two equations and solve for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para>
+            <equation id="eip-id1170552217331"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 \( 2 \) +y=7} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1170560678597">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277070496">Therefore, the solution is (2, 3).    </para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id1170542130641">
+        <exercise id="id1166277070514">
+          <problem id="oo-id1166277087945">
+            <para id="id1166277070518">Solve the system of equations 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+2y=3} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2x+3y=4} {}</m:annotation></m:semantics></m:math> by the elimination method.</para>
+          </problem>
+          <solution id="oo-id1166277088014">
+            <para id="id1166277070634">If we add the two equations, none of the variables are eliminated. But the variable 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> can be eliminated by multiplying the first equation by –2, and leaving the second equation unchanged. </para>
+            <equation id="eip-id1170542194237">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:munder accentunder="true"><m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mo>̲</m:mo></m:munder><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+ - 2x - 4y= - 6 {} ##
+ {underline  {2x+3y=4}}  {} ##
+ - y= - 2
+} } {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1170552591440">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277070870">Substituting 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math> in 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+2y=3} {}</m:annotation></m:semantics></m:math>, we get</para>
+            <equation id="eip-id1170552553845">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x+2 \( 2 \) =3} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="eip-id1170552301909">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277071115">Therefore, the solution is (–1, 2).</para>
+          </solution>
+        </exercise>
+</example>
+        <example id="eip-id1170552524531">
+        <exercise id="id1166277071124">
+          <problem id="oo-id1166277075425">
+            <para id="id1166277071127">Solve the system of equations 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x - 4y=5} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>5y</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x - 5y=6} {}</m:annotation></m:semantics></m:math>.</para>
+          </problem>
+          <solution id="oo-id1166277075495">
+            <para id="id1166277071245">This time, we multiply the first equation by – 4 and the second by 3 before adding. (The choice of numbers is not unique.)</para>
+            <equation id="eip-id1170568222627"> 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>12</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>16</m:mtext></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mtext>12</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>18</m:mtext></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ matrix {
+ - "12"x+"16"y= - "20" {} ##
+"12"x - "15"y="18" {} ##
+y= - 2
+} } {}</m:annotation></m:semantics></m:math></equation>
+            <para id="id1166277071381">By substituting 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 2} {}</m:annotation></m:semantics></m:math> in any one of the equations, we get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>. Hence the solution (–1, –2).</para>
+          </solution>
+        </exercise>
+</example>
+        
+        <para id="id1166277071502"><title>Supply, Demand and the Equilibrium Market Price</title>In a free market economy the supply curve for a commodity is the number of items of a product that can be made available at different prices, and the demand curve is the number of items the consumer will buy at different prices. As the price of a product increases, its demand decreases and supply increases. On the other hand, as the price decreases the demand increases and supply decreases. The <emphasis effect="bold">equilibrium price</emphasis> is reached when the demand equals the supply. </para>
+        <example id="eip-id1170576008994">
+        <exercise id="id1166277071528"><problem id="oo-id1166277075695">
+            <para id="id1166277071531">The supply curve for a product is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=1 "." 5x+"10"} {}</m:annotation></m:semantics></m:math> and the demand curve for the same product is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 2 "." 5x+"34"} {}</m:annotation></m:semantics></m:math>, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the price and y the number of items produced. Find the following. </para>
+          
+       <list id="eip-id1170569822729" list-type="enumerated" number-style="lower-alpha"><item id="id1166277071715"> How many items will be supplied at a price of $10?</item>
+        
+            <item id="id1166277071719"> How many items will be demanded at a price of $10?</item>
+        
+            <item id="id1166277071723"> Determine the equilibrium price.</item>
+      
+            <item id="id1166277071727"> How many items will be produced at the equilibrium price?</item>
+</list>
+          
+
+</problem>
+          <solution id="oo-id1166277075832">
+
+<list id="eip-id6156029" list-type="enumerated" number-style="lower-alpha"><item id="id1166277071728">We substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="10"} {}</m:annotation></m:semantics></m:math> in the supply equation, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=1 "." 5x+"10"} {}</m:annotation></m:semantics></m:math>, and the answer is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="25"} {}</m:annotation></m:semantics></m:math>.</item>
+
+
+            <item id="id1166277071897">We substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="10"} {}</m:annotation></m:semantics></m:math> in the demand equation, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - 2 "." 5x+"34"} {}</m:annotation></m:semantics></m:math>, and the answer is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=9} {}</m:annotation></m:semantics></m:math>.</item>
+
+
+            <item id="id1166277072071"><para id="eip-id1170550048444"> By letting the supply equal the demand, we get</para>
+            <equation id="id1166277072075">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 5x+"10"= - 2 "." 5x+"34"} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="id1166277072159">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">=</m:mo><m:mtext>24</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4x="24"} {}</m:annotation></m:semantics></m:math></equation>
+            <equation id="id1166277072213">
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=6} {}</m:annotation></m:semantics></m:math></equation></item>
+
+<item>
+            <para id="id1166277072266">We substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=6} {}</m:annotation></m:semantics></m:math> in either the supply or the demand equation and we get 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="19"} {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="id1166277072370">The graph below shows the intersection of the supply and the demand functions and their point of intersection, (6, 19).</para>
+<para id="id1166277072376">
+          <figure id="id1166277072382"><media id="id1166277072382_media" alt="The intersection of the lines y=-2.5x+34 and y=1.5x+10 at (6,19) on a Cartesian graph.">
+              <image mime-type="image/png" src="../../media/Picture 15.png" id="id1166277072382__onlineimage" height="300" width="300"/>
+            </media>
+          </figure>
+        </para>
+</item>
+</list> 
+          
+        
+</solution>
+        </exercise>
+</example>
+        
+        <para id="id1166277072413"><title>Break-Even Point</title>In a business, the profit is generated by selling products. If a company sells 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> number of items at a price 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math>, then the revenue 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> times 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> , i.e., 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">⋅</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=P cdot x} {}</m:annotation></m:semantics></m:math>. The production costs are the sum of the variable costs and the fixed costs, and are often written as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C= ital "mx"+b} {}</m:annotation></m:semantics></m:math>, where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the number of items manufactured. <newline/>
+<newline/>
+A company makes a profit if the revenue is greater than the cost, and it shows a loss if the cost is greater than the revenue. The point on the graph where the revenue equals the cost is called the <emphasis effect="bold">Break-even point</emphasis>.</para>
+        
+        <example id="eip-id1166266008081">
+        <exercise id="id1166277072817">
+          <problem id="oo-id1166277076424">
+            <para id="id1166277072820">If the revenue function of a product is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5x</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=5x} {}</m:annotation></m:semantics></m:math> and the cost function is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=3x+"12"} {}</m:annotation></m:semantics></m:math>, find the following.  </para>
+          <list id="eip-id1166264283820" list-type="enumerated" number-style="lower-alpha"><item id="id1166277072933">If 4 items are produced, what will the revenue be?</item>
+        <item id="id1166277072937">What is the cost of producing 4 items?</item>
+        <item id="id1166277072941">How many items should be produced to break-even?</item>
+        <item id="id1166277072945">What will be the revenue and the cost at the break-even point?</item></list>
+</problem>
+<solution id="eip-id1166266369943">
+        <list id="eip-id1166264385972" list-type="enumerated" number-style="lower-alpha"><item id="id1166277072949">We substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=4} {}</m:annotation></m:semantics></m:math> in the revenue equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5x</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=5x} {}</m:annotation></m:semantics></m:math>, and the answer is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>20</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R="20"} {}</m:annotation></m:semantics></m:math>.</item>
+        <item id="id1166277073105">We substitute 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=4} {}</m:annotation></m:semantics></m:math> in the cost equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C=3x+"12"} {}</m:annotation></m:semantics></m:math>, and the answer is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>24</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C="24"} {}</m:annotation></m:semantics></m:math>.</item>
+       <item> <para id="id1166277073269">By letting the revenue equal the cost, we get</para>
+<equation id="eip-id1166264296508"><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></equation>
+<equation id="eip-id1166266029524"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math></equation> </item>
+<item><para id="eip-id1166266243411">We substitute <m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>6</m:mi></m:mrow></m:math> in either the revenue or the cost equation, and we get <m:math><m:mrow><m:mi>R</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math>.</para>
+ <para id="eip-id1166265334411">The graph below shows the intersection of the revenue and the cost functions and their point of intersection, (6, 30).</para>
+        <figure id="id1166277113892"><media id="id1166277113892_media" alt=" The intersection of the lines y=3x+12 and R=5x on a Cartesian graph.">
+            <image mime-type="image/png" src="../../media/Picture 14.png" id="id1166277113892__onlineimage" height="300" width="300"/>
+          </media>
+        </figure>
+      </item> 
+</list>
+</solution>
+</exercise>
+</example>
+    </section>
+  </content>
+</document>
