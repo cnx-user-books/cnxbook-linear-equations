@@ -1406,9 +1406,9 @@ for <m:math>
 						</m:mtd>
 						<m:mtd columnalign="left">
 							<m:mrow>
-								<m:mtable frame="solid"><m:mrow>
+								<m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 										<m:mo>+</m:mo><m:mo>/</m:mo><m:mo>−</m:mo>
-									</m:mrow></m:mtable>
+									</m:mrow></m:mtd></m:mtr></m:mtable>
 							</m:mrow>
 						</m:mtd>
 					</m:mtr>
@@ -1420,7 +1420,7 @@ for <m:math>
 						</m:mtd>
 						<m:mtd columnalign="left">
 							<m:mrow>
-								<m:mtable frame="solid"><m:mo>+</m:mo></m:mtable>
+								<m:mtable frame="solid"><m:mtr><m:mtd><m:mo>+</m:mo></m:mtd></m:mtr></m:mtable>
 							</m:mrow>
 						</m:mtd>
 					</m:mtr>
@@ -1444,7 +1444,7 @@ for <m:math>
 						</m:mtd>
 						<m:mtd columnalign="left">
 							<m:mrow>
-								<m:mtable frame="solid"><m:mo>=</m:mo></m:mtable>
+								<m:mtable frame="solid"><m:mtr><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable>
 							</m:mrow>
 						</m:mtd>
 					</m:mtr>
